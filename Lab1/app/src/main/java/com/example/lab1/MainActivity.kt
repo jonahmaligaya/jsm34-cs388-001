@@ -1,9 +1,11 @@
 package com.example.lab1
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -21,9 +23,23 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.counter).setText("$counter")
         findViewById<TextView>(R.id.goals_text).setText("Goals Reached: $goals")
         findViewById<TextView>(R.id.next_goal).setText("Next Goal: $counter / $next_goal")
+        findViewById<ImageView>(R.id.dolphin_background).visibility = View.INVISIBLE
+        findViewById<ImageView>(R.id.the_deep_background).visibility = View.INVISIBLE
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+
+            findViewById<Button>(R.id.theme_button).setOnClickListener({ v->
+                if (findViewById<ImageView>(R.id.dolphin_background).visibility == View.INVISIBLE) {
+                    findViewById<ImageView>(R.id.dolphin_background).visibility = View.VISIBLE
+                    findViewById<ImageView>(R.id.the_deep_background).visibility = View.VISIBLE
+                    findViewById<TextView>(R.id.counter).setTextColor(Color.WHITE)
+                } else {
+                    findViewById<ImageView>(R.id.dolphin_background).visibility = View.INVISIBLE
+                    findViewById<ImageView>(R.id.the_deep_background).visibility = View.INVISIBLE
+                    findViewById<TextView>(R.id.counter).setTextColor(Color.BLACK)
+                }
+            })
 
             findViewById<ImageButton>(R.id.icon_button).visibility = View.INVISIBLE
             findViewById<Button>(R.id.tap_button).setOnClickListener({ v->

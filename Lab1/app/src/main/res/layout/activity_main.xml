@@ -42,7 +42,7 @@
         android:shadowDx="1.5"
         android:shadowDy="1.3"
         android:shadowRadius="1.6"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/black" />
 
 
     <Button
@@ -69,23 +69,31 @@
         app:layout_constraintVertical_bias="0.944" />
 
     <Button
-        android:id="@+id/double_taps_button"
+        android:id="@+id/theme_button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="DOUBLE TAPS (COSTS 100)"
-        app:layout_constraintBottom_toTopOf="@+id/counter"
+        android:text="CHANGE THEME"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="47dp" />
 
     <Button
         android:id="@+id/customize_button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="CUSTOM BUTTON (COSTS 100)"
-        app:layout_constraintBottom_toTopOf="@+id/double_taps_button"
+        app:layout_constraintBottom_toTopOf="@+id/the_deep_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theme_button" />
+
+    <Button
+        android:id="@+id/double_taps_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="DOUBLE TAPS (COSTS 100)"
+        app:layout_constraintBottom_toTopOf="@+id/counter"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
