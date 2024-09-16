@@ -21,9 +21,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var word = wordToGuess
         var guesses = 0
-
-        findViewById<TextView>(R.id.finalword).setText(word)
-
         findViewById<TextView>(R.id.guess1word).setTextColor(Color.BLACK)
         findViewById<TextView>(R.id.guess1checkword).setTextColor(Color.BLACK)
         findViewById<TextView>(R.id.guess2word).setTextColor(Color.BLACK)
