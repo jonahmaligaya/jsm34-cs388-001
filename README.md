@@ -32,7 +32,7 @@ The following **stretch** functionality is implemented:
   - Picture of the sender
   - Email sent date
   - Bolded information if the email is unread
-  - ![Image/GIF showing additional email information](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+  ![Image/GIF showing additional email information](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ## Notes
 
