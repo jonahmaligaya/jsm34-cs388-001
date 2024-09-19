@@ -26,7 +26,7 @@ The following **required** functionality is completed:
 The following **stretch** functionality is implemented:
 
 - [x] (3 pts) **User can press a 'Load More' button to see the next 5 emails displayed.**
-  - ![Image/GIF showing the 'Load More' button in action](https://i.imgur.com/4pn55ko.mp4) <!-- Replace this link with your actual image/GIF link -->
+  - ![Image/GIF showing the 'Load More' button in action](https://i.imgur.com/3fTg8KX.gif) <!-- Replace this link with your actual image/GIF link -->
 
 - [ ] (3 pts) **Each email displays additional information:**
   - Picture of the sender
