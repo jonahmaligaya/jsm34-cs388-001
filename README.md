@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <video controls height="220" width="390">
-	<source src="https://i.imgur.com/8uQKUvn.mp4" type="video/mp4">
+	<source src="https://i.imgur.com/8uQKUvn.gif" type="video/mp4">
 </video>
 
 <!-- Replace this with whatever GIF tool you used! -->
