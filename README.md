@@ -26,9 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<video controls height="220" width="390">
-	<source src="https://i.imgur.com/8uQKUvn.gif" type="video/mp4">
-</video>
+<img src='https://i.imgur.com/8uQKUvn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
