@@ -26,7 +26,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XvVILWZ" data-context="false" ><a href="//imgur.com/a/XvVILWZ">Project 3: Flixster+ Part 1</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<video controls height="220" width="390">
+	<source src="https://i.imgur.com/8uQKUvn.mp4" type="video/mp4">
+</video>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
