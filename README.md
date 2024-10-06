@@ -28,6 +28,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/8uQKUvn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+GitHub doesn't like the link so I'll put it here: [GIF](https://imgur.com/a/project-3-flixster-part-1-XvVILWZ)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 <!-- Recommended tools:
