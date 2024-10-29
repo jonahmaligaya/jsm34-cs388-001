@@ -1,47 +1,60 @@
-# Android Project 3 - Flixster+ Part 1
+# Lab 5: ArticleSearch Pt 2
 
-Submitted by: **Jonah Maligaya**
+Course Link: [CodePath Android Course](https://courses.codepath.org/courses/and102/unit/5#!labs)
 
-**Flixster+ Part 1** is a movie browsing app that allows users to browse movies currently playing in theaters.
+Submitted by: **Jonah Maligaya** <!-- Replace 'Your Name Here' with your actual name -->
 
-Time spent: **7** hours spent in total
+**NYT Article Search Pt 2** is an app designed to maintain functionality while offline by caching the latest data fetched from the NYT API, ensuring a smooth user experience even without network connectivity.
 
-## Required Features
+Time spent: **5** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
+
+## Application Features
+
+### Required Features
 
 The following **required** functionality is completed:
 
-- [x] **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
-- [x] **Parse through JSON data and implement a RecyclerView to display all movies**
-- [x] **Use Glide to load and display movie poster images**
+- [x] (2 pts) **Most recently fetched data is stored locally in a database**
+  - The app should cache the latest articles fetched from the NYT API in a local SQLite database using Room.
+  - If the user has fetched data recently, those articles should be available offline.
+  - Ensure old cached data is properly replaced with new data upon successful network fetches.
+  - ![GIF showing database caching functionality](https://i.imgur.com/tpOrJc3.gif) <!-- Replace this link with your actual image/GIF link -->
 
-The following **optional** features are implemented:
+- [x] (2 pts) **If user turns on airplane mode and closes and reopens app, old data from the database should be loaded**
+  - ![GIF showing offline mode functionality](https://i.imgur.com/PNEp282.gif) <!-- Replace this link with your actual image/GIF link -->
 
-- [x] Improve and customize the user interface through styling and coloring
-- [x] Implement orientation responsivity
-  - App should neatly arrange data in both landscape and portrait mode
-- [ ] Implement Glide to display placeholder graphics during loading
-  - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
+### Stretch Features
 
-## Video Walkthrough
+The following **stretch** functionality is implemented:
 
-Here's a walkthrough of implemented user stories:
+- [ ] (2 pts) **Add Swipe To Refresh to force a new network call to get new data**
+  - ![GIF showing Swipe to Refresh](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-<img src='https://i.imgur.com/8uQKUvn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- [ ] (2 pts) **Add setting toggle for user to create preference for caching data or not (Using Shared Preferences)**
+  - ![GIF showing Shared Preferences for caching](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
-GitHub doesn't like the link so I'll put it here: [GIF](https://imgur.com/a/project-3-flixster-part-1-XvVILWZ)
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+- [ ] (+3 pts) **Implement a Search UI to filter current RecyclerView entries or fetch data from the search API with query**
+  - ![GIF showing Search UI functionality](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
+
+- [ ] (2 pts) **Listen to network connectivity changes and create a UI to let people know they are offline and automatically reload new data if connectivity returns**
+  - ![GIF showing network connectivity detection](http://i.imgur.com/link/to/your/gif/file.gif) <!-- Replace this link with your actual image/GIF link -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was quite difficult to change everything I needed to. <!-- Replace this with your specific challenges and experiences -->
+
+## Resources
+
+- [Data storage with Room](https://developer.android.com/training/data-storage/room)
+- [Swipe To Refresh](https://developer.android.com/training/swipe/add-swipe-interface)
+- [Save key-value data with Shared Preferences](https://developer.android.com/training/data-storage/shared-preferences)
+- [Android Search View](https://developer.android.com/reference/android/widget/SearchView)
+- [Monitor connectivity status and connection metering](https://developer.android.com/training/monitoring-device-state/connectivity-status-type)
+- [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
 
 ## License
 
+```plaintext
     Copyright 2024 Jonah Maligaya
 
     Licensed under the Apache License, Version 2.0 (the "License");
