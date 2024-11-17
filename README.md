@@ -37,6 +37,7 @@ The following **stretch** functionality is implemented:
 - [x] (2 pts) **Respond to device orientation changes without resetting the application**
   - Ensures app content maintains its state across orientation changes.
   - ![GIF showing orientation change handling](https://i.imgur.com/dfnEbNS.gif) <!-- Replace this link with your actual image/GIF link -->
+  - The link doesn't seem to work, so here is the actual link to click on if you can't see the GIF. https://i.imgur.com/dfnEbNS.gif
 
 ## Notes
 
